@@ -1,0 +1,11 @@
+# Constants
+WIDTH, HEIGHT = 400, 400
+GRID_SIZE = 4
+TILE_SIZE = WIDTH // GRID_SIZE
+FPS = 60
+
+# Colors
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (200, 200, 200)
+BLUE = (50, 100, 200)
