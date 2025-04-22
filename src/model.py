@@ -27,6 +27,15 @@ class Board:
                 if value == GRID_SIZE * GRID_SIZE:
                     value = 0  # Empty tile
                 self.tiles[row][col] = Tile(value, row, col)
+
+    def set_grid(self, grid: list[list[int]]):
+        # Set the grid to a specific configuration manually (for testing)
+        for row in range(GRID_SIZE):
+            for col in range(GRID_SIZE):
+                value = grid[row][col]
+                self.tiles[row][col] = Tile(value, row, col)
+                if value == 0:
+                    self.empty_pos = (row, col)
     
     def shuffle(self, moves=100):
         # Make random moves to shuffle the board
