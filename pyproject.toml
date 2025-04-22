@@ -15,4 +15,4 @@ dev = [
 ]
 
 [project.scripts]
-puzzle = "puzzle.puzzle:main"
+puzzle = "puzzle:main"
