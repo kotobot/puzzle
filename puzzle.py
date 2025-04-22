@@ -1,7 +1,4 @@
-from enum import Enum
-import pickle
 import pygame
-import random
 import sys
 
 sys.path.append("src")
